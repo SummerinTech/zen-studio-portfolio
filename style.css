@@ -10,6 +10,15 @@
 
 */
 
+.booking-button {
+	color: inherit;
+	border: 1px solid #ffa995;
+	border-radius: 2rem;
+	display: inline-block;
+	text-decoration: none;
+	padding: 0.5rem 1.5rem;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -89,14 +98,131 @@ body {
 	text-align: right;
 }
 
+.bg-light {
+	background-color: #f8f6f4;
+}
+.bg-featured {
+	background-color: #018ca2;
+}
+
+.text-featured {
+	color: #ffa995;
+}
+
 /* General typography & universal styles  */
 
+body {
+	font-family: "Baskervville", serif;
+	color: rgb(65, 60, 60);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Didot", serif;
+	line-height: 1;
+	margin-bottom: 1rem;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child {
+	margin-bottom: 0;
+}
+
+p {
+	line-height: 1.4;
+	margin-bottom: 0.8rem;
+	font-size: 1rem;
+}
+
+ul {
+	margin-left: 1rem;
+}
+
+li {
+	padding-left: 0.5rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.text-lato {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	color: #e37165;
+}
+
+.text-lg {
+	font-size: 3.5rem;
+}
+.text-xl {
+	font-size: 4.5rem;
+}
+.text-xxl {
+	font-size: 8.5rem;
+}
+.text-bold {
+	font-weight: bold;
+}
+
 /* Header & Footer */
+
+footer {
+	padding-bottom: 0.5rem;
+}
 
 /* Images & Background Images */
 
 .bg-image {
 	background-size: cover;
 	background-position: center;
+	background-image: url("/images/brown-leaves.jpg");
+}
+
+.bg-stone {
 	background-image: url("/images/stone.png");
+}
+
+.bg-venue {
+	background-image: url("/images/zen-loft.jpg");
+}
+
+.bg-map {
+	background-image: url("/images/light-colored-map.png");
+}
+
+.shape-teardrop {
+	border-radius: 20rem;
+	border-bottom-right-radius: 0;
+}
+
+.shape-window {
+	border-top-left-radius: 20rem;
+	border-top-right-radius: 20rem;
+}
+
+.bg-leaves {
+	background-position: 50% 31%;
 }
